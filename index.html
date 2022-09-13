@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>API</title>
+</head>
+<body>
+    <section class="container neutral-pink">
+        <!-- Palindome From API -->
+        <div class="palindrome">
+            <h1 class="space mt-1">Check Palindrome</h1>
+            <div class="entry">
+                <input type="text" id="string" class="mt-1" placeholder="Enter a string ...">
+                <div class="predict mt-1">
+                  <button class="mt-1 btn" id="predict_btn">Start</button>
+                </div>
+                <div id="is_palindrome" class="result mt-1"><p>
+
+                </p></div>
+              </div>
+        </div>
+
+        <!--Math API -->
+        <div class="math">
+          <div class="entry">
+            <h1 class="space mt-1">Calculate</h1>
+            <input type="number" id="a" class="mt-1" placeholder="Enter a">
+            <input type="number" id="b" class="mt-1" placeholder="Enter b">
+            <input type="number" id="c" class="mt-1" placeholder="Enter c">
+            <div class="predict mt-1">
+              <button class="mt-1 btn" id="predict_btn">Start</button>
+            </div>
+            <div id="calculations" class="result mt-1"><p>
+
+            </p></div>
+          </div>
+        </div>
+      </section>
+
+</body>
+<!-- Script -->
+<script src="node_modules/axios/dist/axios.min.js"></script>
+<script src="/index.js"></script>
+</html>
